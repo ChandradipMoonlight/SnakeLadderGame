@@ -5,8 +5,11 @@ public class SnakeLadderGame {
 		System.out.println("Wellcome to the Snake and Ladder game.");
 		
 		int startPostion=0;
-	
-	}
+		
+		int dieRolls = (int) (Math.random()*6)+1;
+		
+		System.out.println(dieRolls);
+	} 
 }
 
 
